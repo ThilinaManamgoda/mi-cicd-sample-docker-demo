@@ -18,5 +18,8 @@
 ARG BASE_IMAGE
 FROM ${BASE_IMAGE}
 COPY CompositeApps/*.car ${WSO2_SERVER_HOME}/repository/deployment/server/carbonapps/
+COPY deployment.toml ${WSO2_SERVER_HOME}/conf/
+COPY micro-integrator.sh ${WSO2_SERVER_HOME}/bin/
+
 #COPY Libs/*.jar ${WSO2_SERVER_HOME}/lib/
 

@@ -87,25 +87,6 @@ limitations under the License.
         <configuration/>
       </plugin>
       <plugin>
-        <groupId>org.wso2.maven</groupId>
-        <artifactId>mi-container-config-mapper</artifactId>
-        <version>5.2.18</version>
-        <extensions>true</extensions>
-        <executions>
-          <execution>
-            <id>config-mapper-parser</id>
-            <phase>package</phase>
-            <goals>
-              <goal>config-mapper-parser</goal>
-            </goals>
-            <configuration>
-              <miVersion>1.1.0</miVersion>
-            </configuration>
-          </execution>
-        </executions>
-        <configuration/>
-      </plugin>
-      <plugin>
         <groupId>com.spotify</groupId>
         <artifactId>dockerfile-maven-plugin</artifactId>
         <version>1.4.13</version>
